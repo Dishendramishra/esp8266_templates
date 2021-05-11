@@ -5,7 +5,7 @@ const byte interruptpin = 0;
 
 
 
-void ICACHE_RAM_ATTR ISRoutine ();
+ICACHE_RAM_ATTR void ICACHE_RAM_ATTR ISRoutine ();
 
 void setup () {
  Serial.begin(115200);
